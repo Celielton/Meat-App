@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { RestaurantsService } from 'app/restaurantes/restaurants.service';
 import { ActivatedRoute } from '@angular/router';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { DatePipe } from '@angular/common';
 import { style, trigger, transition, animate, state } from '@angular/animations'
 
